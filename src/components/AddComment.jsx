@@ -15,7 +15,7 @@ const AddComment = (props) => {
         elementId: props.asin,
       });
     }
-  }, [props.asin]);
+  }, );
 
   const sendComment = async (e) => {
     e.preventDefault();
